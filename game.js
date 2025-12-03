@@ -113,5 +113,5 @@ function endGame(){
     // stores the winning number to the session storage so we can pull it on the results page
     sessionStorage.setItem("result", result);
     // takes us to the results page
-    window.location.replace("claw-machine-widget-main\results.html");
+    window.location.replace("claw-machine-widget-main/results.html");
 }
